@@ -1,0 +1,257 @@
+/* all common css start here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* all common css end here */
+
+/* banner section start here */
+.banner {
+  background-image: url(images/A.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: cursive, sans-serif;
+}
+/* navbar css start here */
+.nav_bar {
+  background-color:orangered;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 30px;
+  padding: 10px;
+}
+.nav_bar a:hover {
+  padding: 10px;
+  background-color: aliceblue;
+  color: orangered;
+  border-radius: 5px;
+}
+/* navbar css end here */
+.banner_overly {
+  padding: 350px;
+  background: rgba(0, 0, 0, 0.493);
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.banner_overly h1 {
+  color:orange;
+  font-size: 50px;
+}
+#orange{
+  color: orange;
+}
+.banner_overly button {
+  padding: 12px 40px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 15px;
+  color: aliceblue;
+  background-image: linear-gradient(orangered,orange);
+  border: none;
+}
+/* banner section end here */
+/* about us section start here */
+.about_us{
+  display: flex;
+  height: 400px;
+  margin-top: 50px;
+}
+.about_us_left{
+  display: flex;
+  height: 350px;
+  width: 500px;
+  margin: 20px;
+  gap: 5px;
+  margin-right: 100px;
+  padding: 10px;
+   background-color:rgb(218, 196, 156);
+   image
+}
+.about_us_left img{
+  height: 100%;
+  width: 100%;
+}
+.about_us_right{
+  margin-top: 20px;
+  margin-left: 100px;
+  padding-top: 30px;
+  text-align: center;
+  justify-content: center;
+  font-family: cursive;
+  
+  
+}
+.about_us_right h3{
+  color: orangered;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+ 
+
+
+/* about us section end here */
+/* contact us section start here */
+.contact_us{
+  background-color:rgb(23, 21, 18) ;
+  color: aliceblue;
+  padding: 150px;
+  display: flex;
+ font-size: 25px;
+ text-align: center;
+  justify-content:center;
+  font-family: cursive;
+ 
+}
+.contact_us_one{
+ padding-top: 50px;
+ margin-top: 50px;
+ margin-left: 50px;
+  text-align: center;
+ 
+}
+.contact_us_one h2{
+  font-size: 40px;
+}
+.contact_us_two {
+  text-align: left;
+  justify-content: left;
+  margin: 50px;
+  padding: 50px;
+}
+.contact_us_two button{
+  padding: 10px 20px;
+  margin-top: 10px;
+  color:aliceblue;
+  border-radius: 8px;
+  background-color:orangered;
+}
+/* contact us section end here */
+/* gallery layouts start here */
+.gallery {
+  min-height: 800px;
+  margin: 30px;
+  padding: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+.gallery h2 {
+  text-align: center;
+  color: orangered;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(11, 6, 6);
+}
+.gallery_layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px;
+  padding: 20px;
+  height: 400px;
+  grid-template-rows: 400px;
+}
+.gallery_layout img {
+  height: 100%;
+  width: 100%;
+}
+.flex img {
+  height: 195px;
+  padding-bottom: 5px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  height: 400px;
+}
+.feedback {
+  color: orangered;
+  font-family: "Segoe UI";
+}
+.feedback h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px rgb(19, 13, 13);
+}
+.feedback_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 50px;
+}
+
+.single_card {
+  border: 2px solid orange;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 15px 10px 10px gray;
+  background-color: rgb(36, 34, 32);
+}
+.single_card p {
+  color:rgb(227, 215, 195);
+}
+.footer {
+  display: flex;
+  background-color: rgb(22, 20, 20);
+  padding: 150px;
+  color: whitesmoke;
+  /* text-align: center; */
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.footer_right{
+  text-align: center;
+  padding: 50px;
+  /* margin: 50px; */
+  background-color: rgb(56, 55, 55);
+  border-radius: 10px;
+  margin-left: -20px;
+  border: 2px solid rgb(221, 214, 214);
+  box-shadow:5px 5px 10px gray;
+
+}
+.footer h3 {
+  padding: 5px;
+
+}
+.footer p {
+  padding: 10px;
+}
+.input input {
+  color: orangered;
+  padding: 4px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.footer button {
+  background-color: orangered;
+  padding: 4px 10px;
+  color: whitesmoke;
+  border: none;
+  border-radius: 2px;
+}
+.Empire{
+  background-color:rgb(48, 46, 46);
+  border-radius: 5px;
+  margin-left: -15px;
+  text-align: left;
+  justify-content: center;
+  padding: 50px;
+ border: 1px solid rgb(93, 90, 90);
+}
+.Empire h2{
+  font-size: 40px;
+  padding-bottom: 5px;
+}
